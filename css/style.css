@@ -482,6 +482,7 @@ footer .container {
 
 footer .container p {
     font-size: 25px;
+    color: var(--light-color);
 }
 
 footer .container p span {
