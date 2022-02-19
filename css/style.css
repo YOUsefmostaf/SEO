@@ -193,6 +193,10 @@ animation-play-state: paused;
     padding: 30px;
     border-radius: 10px;
 }
+.services .container .box:hover{
+    opacity: .7;
+    transform: translateZ(15px);
+}
 
 .services .container .box img {
     height: 100px;
@@ -223,6 +227,10 @@ animation-play-state: paused;
 .work .container img {
     max-width: 100%;
     border-radius: 10px;
+}
+.work .container img:hover
+{
+    opacity: .7;
 }
 
 /* work end  */
