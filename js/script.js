@@ -1,6 +1,6 @@
 let menu = document.getElementById("menu");
 let nav = document.getElementById("nav");
-menu.onclick = function () {
+menu.onclick =  () => {
   'use strict';
   nav.classList.toggle("active");
 }
