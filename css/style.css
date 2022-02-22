@@ -29,6 +29,19 @@ body.active {
     --light-bg: #222;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--light-bg);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--red);
+}
+
 a {
     text-decoration: none;
 }
