@@ -1,7 +1,7 @@
 let menu = document.getElementById("menu");
 let nav = document.getElementById("nav");
 menu.onclick =  () => {
-  'use strict';
+
   nav.classList.toggle("active");
 }
 let themeBtn = document.querySelector("#theme-btn");
