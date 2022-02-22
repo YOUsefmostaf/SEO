@@ -76,26 +76,26 @@ header .container,
 header .container a,
 .quick-link .container a {
     margin-right: auto;
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: var(--black);
 }
 
 header .container a i,
 .quick-link .container a i {
-    font-size: 3vw;
+    font-size: 3.5vw;
     color: var(--red);
 }
 
 header .container nav a,
 .quick-link .container nav a {
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin-right: 10px;
     color: var(--light-color);
 }
 
 header .container .menu,
 header .container .moon {
-    font-size: 1.5vw;
+    font-size: 2vw;
     cursor: pointer;
 }
 
@@ -627,6 +627,18 @@ footer .container div a:hover {
 @media (min-width:768px) {
     .container {
         width: 750px;
+    }
+        footer .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    footer .container p {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 }
 
